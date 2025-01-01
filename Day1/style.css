@@ -8,6 +8,13 @@
 body {
 	background-color: #222;
 }
+.home button{
+    padding: 10px 20px;
+    font-size:24px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 2.5mm;
+}
 
 .card {
 	width: 90%;
