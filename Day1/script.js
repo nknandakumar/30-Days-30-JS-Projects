@@ -10,12 +10,13 @@ const weatherIcon = document.querySelector('.weather-icon');
 
 async function checkWeather(city) {
     const response  = await fetch(APIurl+city+`&appid=${APIKEY} `);
-    const data = await response.json() ;
+   
       if(response.status == 404){
         //if there is any error it shows the error details 
         document.querySelector('.error').style.display = "block";
         document.querySelector('.weather').style.display = "none" ;
       }else{
+        const data = await response.json() ;
         document.querySelector('.temp').innerHTML = Math.round(data.main.temp) + "°C" ;
     document.querySelector('.city').innerHTML = data.name;
     document.querySelector('.humidity').innerHTML = data.main.humidity +"%";
