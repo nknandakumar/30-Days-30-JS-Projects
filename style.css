@@ -2,4 +2,40 @@ body{
     background-color: blanchedalmond;
     margin: 0;
     padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    box-sizing: border-box;
+    color-scheme: dark;
+    background-color:black;
+    color:azure;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px ;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    margin-top: 40px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.project{
+    padding: 15px;
+    border: white solid 2px  ;
+    border-radius: 2.5mm;
+    color:azure;
+    font-size: 28px;
+    transition: background-color 1s ease-out;
+}
+
+.project:hover{
+   background-color: beige;
+   color: black;
 }
