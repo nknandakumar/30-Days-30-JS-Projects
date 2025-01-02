@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.card{
+    width: 90%;
+    text-align: center;
+    background-color: darkseagreen;
+    margin-top: 20px;
+    padding: 45px;
+    border-radius: 20px;
+
+ }
+
+ .add-todo{
+  margin-top: 20px;
+ }
+
+.add-todo input,button{
+    border: none;
+    outline: none;
+    padding: 15px 10px;
+    border-radius: 2.5mm;
+}
+
+.todos{
+    margin: 20px;
+}
+
+.todos ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.todos ul li {
+   
+}
+
+.checkbox{
+    outline: none;
+    padding: 10px;
+
+}
+
+ 
+
