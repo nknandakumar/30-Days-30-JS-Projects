@@ -7,18 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="card">
+ 
+  <div class="container">
+    <div class="todo-app">
         <h1>Todo List </h1>
-        <div class="add-todo">
-              <input type="text" placeholder="Enter the Task.. " >
-              <button>ADD</button>
-              <div class="todos">
-                <ul>
-                    <li class="task"><input class="checkbox" type="checkbox" name="" id=""> Jogging</li> 
-                </ul>
-              </div>
+        <div class="row">
+              <input type="text" id="input-box" placeholder="Enter your Task.. " >
+              <button onclick="addTask()"  >ADD</button>
         </div>
+         <ul id="list-container">
+          <!--
+            <li class="checked" >Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li>
+            <li>Task 4</li>  
+          -->
+         </ul>
     </div>
+  </div>
     <script src="script.js"></script>
 </body>
 </html>
