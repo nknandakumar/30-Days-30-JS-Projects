@@ -16,11 +16,19 @@ main{
     padding: 40px ;
 }
 
+h1 i{
+    color: yellow;
+    font-size: 34px;
+    font-weight: 700;
+}
+
 .projects{
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
     gap: 20px;
-    margin-top: 40px;
+    margin-top: 20px;
+
+
 }
 
 
@@ -49,17 +57,20 @@ a{
    color: black;
 }
 
+.week2{
+    width: 60%;
+    margin: 20px 0;
+}
+
 @media (max-width: 600px) {
     .projects{
         display: grid;
-        grid-template-columns:  2fr;
+        grid-template-columns: 2fr 2fr;
         gap: 10px;
-        margin-top: 40px;
+        margin-top: 10px;
     }
 
-    .project{
-        width: 100%;
-    }
+   
 
     main{
         padding: 10px;
