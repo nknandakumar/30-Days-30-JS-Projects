@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Stop watch</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+		/>
+	</head>
+	<body>
+        <a class="home" href="/index.html"> <button >HOME</button></a>
+		<div class="container">
+			<h2 id="timer">00:00:00</h2>
+			<div class="ctrl">
+				<button id="stop" onclick="stop()">
+					<i class="fa-solid fa-stop"></i>
+				</button>
+				<button id="start" onclick="start()">
+					<i class="fa-solid fa-play"></i>
+				</button>
+				<button onclick="reset()"><i class="fa-solid fa-repeat"></i></button>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
