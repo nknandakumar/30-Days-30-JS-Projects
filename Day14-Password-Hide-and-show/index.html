@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Password Hide and Show</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+        <a class="home" href="/index.html"> <button>HOME</button></a>
+		<div class="container">
+            
+			<div class="input-box">
+				<input id="passwd" type="password" placeholder="Enter the Password" />
+				<button id="btn" onclick="toggleDisplay()" >Show</button>
+			</div>
+             
+            <h2  class="mobile" >Switch to Desktop Site</h2>
+        
+		</div>
+		<script>
+			let Passwords = document.getElementById("passwd");
+			let btn = document.getElementById("btn");
+			function  toggleDisplay(){
+				if (Passwords.type == "password") {
+					Passwords.type ="text";
+                    btn.innerHTML ="Hide"
+				} else {
+					Passwords.type ="password";
+                         btn.innerHTML ="Show"
+				}
+			};
+		</script>
+	</body>
+</html>
