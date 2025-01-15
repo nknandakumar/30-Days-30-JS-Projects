@@ -31,6 +31,12 @@ h1 i{
 
 }
 
+.projects a abbr{
+    text-decoration: none;
+    border-bottom: none;
+    
+}
+
 
 
 hr{
@@ -57,7 +63,7 @@ a{
    color: black;
 }
 
-.week2{
+.week{
     width: 60%;
     margin: 20px 0;
 }
