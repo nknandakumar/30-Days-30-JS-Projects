@@ -94,7 +94,6 @@ form button{
     color: seagreen;
 }
 
-
 .home button {
 	padding: 10px 20px;
 	font-size: 24px;
@@ -102,4 +101,24 @@ form button{
 	cursor: pointer;
 	border-radius: 2.5mm;
     border: solid;
+}
+
+.mobile{
+    display: none;
+}
+
+@media (max-width:530px) {
+    body{
+        background-color: black;
+    }
+    .container{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+        color: #999;
+        text-align: center;
+        margin-top: 90px;
+    }
 }
