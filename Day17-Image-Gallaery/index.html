@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Image Gallery</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<a class="home" href="/index.html"> <button>HOME</button></a>
+        <div class="gallery-wrap">
+            <img src="https://png.pngtree.com/png-vector/20190120/ourmid/pngtree-back-vector-icon-png-image_470452.jpg" id="backBtn">
+            <!--Image Gallery-->
+            <div class="gallery">
+                <div>
+                    <span>
+                        <img
+                            src="https://lemansultimate.com/wp-content/uploads/2024/02/Caddy-50-1024x576.png"
+                        />
+                    </span>
+                    <span
+                        ><img
+                            src="https://lemansultimate.com/wp-content/uploads/2024/02/1-6-1024x576.png"
+                            alt=""
+                    /></span>
+                    <span>
+                        <img
+                            src="https://stat.overdrive.in/wp-content/uploads/2017/06/IMG-20170615-WA0019.jpg"
+                            alt=""
+                    /></span>
+                
+                </div>
+                <div>
+                    <span>
+                        <img
+                            src="https://lemansultimate.com/wp-content/uploads/2024/02/Online.png"
+                            alt=""
+                    />
+                </span>
+                    <span>
+                        <img src="https://lemansultimate.com/wp-content/uploads/2024/02/Hypercars.png" alt="">
+                    </span>
+                    <span>
+                        <img src="https://lemansultimate.com/wp-content/uploads/2024/06/7-Toyota-16.png" alt="">
+                    </span>
+                </div>
+            </div>
+            <!---->
+            <img src="https://e7.pngegg.com/pngimages/741/338/png-clipart-computer-icons-arrow-button-next-step-logo-arrow-thumbnail.png" id="nextBtn">
+        </div>
+	
+
+		<script>
+            let scrollContainer = document.querySelector('.gallery');
+            let backBtn = document.getElementById('backBtn');
+            let nextBtn = document.getElementById('nextBtn');
+
+            scrollContainer.addEventListener("wheel",(evt)=>{
+                evt.preventDefault();
+                scrollContainer.scrollLeft += evt.deltaY ;
+                    scrollContainer.style.scrollBehavior = "auto"
+            })
+
+            nextBtn.addEventListener("click",()=>{
+                scrollContainer.style.scrollBehavior = "smooth"
+                scrollContainer.scrollLeft += 900;
+                    
+            })
+
+            backBtn.addEventListener("click",()=>{
+                        scrollContainer.style.scrollBehavior = "smooth"
+                scrollContainer.scrollLeft -= 900;
+            })
+        </script>
+	</body>
+</html>
