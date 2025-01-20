@@ -3,7 +3,7 @@ let speech = new SpeechSynthesisUtterance();
 let voices = [];
 let voiceSelect = document.querySelector("select");
 window.speechSynthesis.onvoiceschanged = () => {
-	voice = window.speechSynthesis.getVoices();
+	voices = window.speechSynthesis.getVoices();
 	speech.voice = voice[0];
 
 	voices.forEach(
@@ -12,10 +12,18 @@ window.speechSynthesis.onvoiceschanged = () => {
 };
 
 voiceSelect.addEventListener("change",()=>{
-    speech.voice = voice[voiceSelect.value]
+    const selectedVoiceIndex = voiceSelect.value;
+    speech.voice = voices[selectedVoiceIndex];
 })
+
+//
 
 const voice = () => {
 	speech.text = document.querySelector("textarea").value;
 	window.speechSynthesis.speak(speech);
 };
+
+const defaultMsg =()=>{
+    speech.text = "chhodhu chakka ninu, bolimaghane, Huch thulle, nayee thikka nekku ogu, athrunghuthi, lovde ke ball huch sulle maghane, Sorry for any bad words are hurted U.   and Wait wait waiit   ,  Thikka kondu Hogo  and One more innu keluthidiya chodu, hogo thulle bosudike";
+	window.speechSynthesis.speak(speech);
+}

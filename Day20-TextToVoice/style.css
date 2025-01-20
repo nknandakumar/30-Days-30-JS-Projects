@@ -82,7 +82,7 @@ textarea::placeholder {
 
 .row select {
 	flex: 1;
-	color: #333;
+	color: #fffcfc;
 	background-color: rgb(58, 58, 58);
 	height: 50px;
 	padding: 0 20px;
@@ -104,4 +104,26 @@ textarea::placeholder {
 	top: 50%;
 	transform: translateY(-50%);
 	pointer-events: none;
+}
+
+
+
+.mobile{
+    display: none;
+}
+
+@media (max-width:629px) {
+    body{
+        background-color: black;
+    }
+    .container{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+        color: #ece9e9;
+        text-align: center;
+        margin-top: 90px;
+    }
 }
