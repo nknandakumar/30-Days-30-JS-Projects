@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	box-sizing: border-box;
+}
+
+.home button {
+	padding: 10px 20px;
+	font-size: 24px;
+	margin: 20px 40px;
+	cursor: pointer;
+	border-radius: 2.5mm;
+	border: solid;
+}
+
+.container {
+	background-color: rgb(22, 21, 21);
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.calender {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.calender .left,
+.right {
+	padding: 40px 10px;
+	font-size: 28px;
+	height: 170px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.calender .left {
+	background-color: #fff;
+	border-radius: 20px 0 0 20px;
+}
+.calender .left #date {
+	font-size: 70px;
+    line-height: 70px;
+}
+
+.calender .left #day {
+	font-family: 1px;
+	color: rgb(77, 70, 70);
+}
+
+.calender .right {
+	background-color: orangered;
+	border-radius: 0 20px 20px 0;
+}
