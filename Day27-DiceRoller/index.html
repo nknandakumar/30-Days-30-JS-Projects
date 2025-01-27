@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Dice Roller</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<a class="home" href="/index.html"> <button>HOME</button></a>
+		<div class="container">
+			<div class="dice-box">
+				<img id="dice" src="images/dice1.png" alt="" />
+				<button onclick=" RollDice()">Roll</button>
+			</div>
+		</div>
+		<script>
+            
+                let colors = ['red', 'orange', 'black',' red', 'white', 'red'];
+			var dice = document.getElementById("dice");
+            var bg = document.querySelector(".container");
+
+			function RollDice() {
+				let interval = setInterval(() => {
+					var num = Math.floor(Math.random() * 6) + 1;
+					dice.src = `images/dice${num}.png`;
+                    bg.style.background = colors[num]
+				}, 200);
+               
+				// Stop changing the dice image after 5 seconds
+				setTimeout(() => {
+					clearInterval(interval);
+                    bg.style.background = "green"
+                    bg.classList.add('blink')
+                    setTimeout(() => {
+                        bg.classList.remove('blink')
+                    }, 1000);
+				}, 5000);
+			}
+		</script>
+	</body>
+</html>
