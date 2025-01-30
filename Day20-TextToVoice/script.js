@@ -24,6 +24,6 @@ const voice = () => {
 };
 
 const defaultMsg =()=>{
-    speech.text = "chhodhu chakka ninu, bolimaghane, Huch thulle, nayee thikka nekku ogu, athrunghuthi, lovde ke ball huch sulle maghane, Sorry for any bad words are hurted U.   and Wait wait waiit   ,  Thikka kondu Hogo  and One more innu keluthidiya chodu, hogo thulle bosudike";
+    speech.text = "You are so Beautiful";
 	window.speechSynthesis.speak(speech);
 }
