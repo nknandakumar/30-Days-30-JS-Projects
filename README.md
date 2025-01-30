@@ -14,7 +14,7 @@ All projects are accessible from a single page. Below is the list of projects in
 
 | Day | Project Name                | Source Code |
 | --- | --------------------------- | ------------ |
-| 1   | Weather App                 | `/projects/weather-app` |
+| 1   | Weather App                 | `/projects/weather-app`(30-Days-30-JS-Projects/Day1) |
 | 2   | Todo List                   | `/projects/todo-list` |
 | 3   | Quiz App                    | `/projects/quiz-app` |
 | 4   | Password Generator          | `/projects/password-generator` |
