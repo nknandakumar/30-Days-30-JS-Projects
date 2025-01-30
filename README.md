@@ -1,0 +1,69 @@
+
+
+# 30 Days 30 JavaScript Projects
+# ![30 Days 30 JavaScript Projects](./assets/landingPage.png)
+
+Welcome to **30 Days 30 JavaScript Projects**! 🚀 This repository contains 30 beginner-to-intermediate level JavaScript projects . You can explore all projects from one place using a single deployed URL. This is a perfect hands-on JavaScript learning experience for beginners and intermediate developers alike!
+
+🔗 **Live Demo:** [View Projects](https://30-days-30-js-projects-ruby.vercel.app/index.html)
+
+---
+
+## 📌 Project List
+All projects are accessible from a single page. Below is the list of projects included:
+
+| Day | Project Name                | Source Code |
+| --- | --------------------------- | ------------ |
+| 1   | Weather App                 | `/projects/weather-app` |
+| 2   | Todo List                   | `/projects/todo-list` |
+| 3   | Quiz App                    | `/projects/quiz-app` |
+| 4   | Password Generator          | `/projects/password-generator` |
+| 5   | Notes App                   | `/projects/notes-app` |
+| 6   | Age Calculator              | `/projects/age-calculator` |
+| 7   | Quote Generator             | `/projects/quote-generator` |
+| 8   | QR Generator                | `/projects/qr-generator` |
+| 9   | Toast Notification          | `/projects/toast-notification` |
+| 10  | Music Player                | `/projects/music-player` |
+| 11  | Stop Watch                  | `/projects/stop-watch` |
+| 12  | Calculator App              | `/projects/calculator-app` |
+| 13  | Pop-Up Window               | `/projects/pop-up-window` |
+| 14  | Hide and Show Password      | `/projects/hide-show-password` |
+| 15  | Dark and Light Theme Toggle | `/projects/theme-toggle` |
+| 16  | Form Validation             | `/projects/form-validation` |
+| 17  | Image Gallery               | `/projects/image-gallery` |
+| 18  | Email to Google Sheet       | `/projects/email-to-google-sheet` |
+| 19  | Show Password Strength      | `/projects/password-strength` |
+| 20  | Text to Voice               | `/projects/text-to-voice` |
+| 21  | Coming Soon Timer Page      | `/projects/coming-soon-timer` |
+| 22  | Background Remover          | `/projects/background-remover` |
+| 23  | Mini Calendar               | `/projects/mini-calendar` |
+| 24  | Menu Select                 | `/projects/menu-select` |
+| 25  | Progress Bar                | `/projects/progress-bar` |
+| 26  | Product Page                | `/projects/product-page` |
+| 27  | Dice Roller                 | `/projects/dice-roller` |
+| 28  | Digital Clock               | `/projects/digital-clock` |
+| 29  | Drag and Drop               | `/projects/drag-and-drop` |
+| 30  | Image Search Engine         | `/projects/image-search` |
+
+
+
+---
+
+## 🛠 Tech Stack
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6+)**
+- **APIs (for some projects)**
+
+
+---
+
+## 📌 Author
+**[Nanda Kumar M]** - [instagram](https://www.Instagram.com/nandakumar__05/) | [X - Twitter](https://x.com/NandaKumarM_dev)
+
+---
+
+
+Happy Coding! 🚀
+
+
